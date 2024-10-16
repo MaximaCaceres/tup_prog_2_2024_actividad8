@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actividad8", "Actividad8\Actividad8.csproj", "{ED20CFAC-2B3C-486D-8154-4B4EA58669E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ficheros", "Ficheros", "{E8C87AA7-D747-4762-9B5D-455C1B04784C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED20CFAC-2B3C-486D-8154-4B4EA58669E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED20CFAC-2B3C-486D-8154-4B4EA58669E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED20CFAC-2B3C-486D-8154-4B4EA58669E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED20CFAC-2B3C-486D-8154-4B4EA58669E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5427AA2-D169-4E18-83FA-F0CF9E09F0C9}
+	EndGlobalSection
+EndGlobal
