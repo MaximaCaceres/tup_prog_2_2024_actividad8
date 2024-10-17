@@ -34,6 +34,7 @@
             this.btnBackup = new System.Windows.Forms.Button();
             this.btnRestaurar = new System.Windows.Forms.Button();
             this.tbxLista = new System.Windows.Forms.TextBox();
+            this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.SuspendLayout();
             // 
             // btnVerCuentas
@@ -54,6 +55,7 @@
             this.btnImportarCuenta.TabIndex = 1;
             this.btnImportarCuenta.Text = "Importar Cuenta";
             this.btnImportarCuenta.UseVisualStyleBackColor = true;
+            this.btnImportarCuenta.Click += new System.EventHandler(this.btnImportarCuenta_Click);
             // 
             // btnExportarCuenta
             // 
@@ -63,6 +65,7 @@
             this.btnExportarCuenta.TabIndex = 2;
             this.btnExportarCuenta.Text = "Exportar Cuenta";
             this.btnExportarCuenta.UseVisualStyleBackColor = true;
+            this.btnExportarCuenta.Click += new System.EventHandler(this.btnExportarCuenta_Click);
             // 
             // btnBackup
             // 
@@ -85,11 +88,16 @@
             // tbxLista
             // 
             this.tbxLista.BackColor = System.Drawing.Color.LightGray;
+            this.tbxLista.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbxLista.Location = new System.Drawing.Point(28, 54);
             this.tbxLista.Multiline = true;
             this.tbxLista.Name = "tbxLista";
             this.tbxLista.Size = new System.Drawing.Size(607, 282);
             this.tbxLista.TabIndex = 5;
+            // 
+            // openFileDialog
+            // 
+            this.openFileDialog.FileName = "openFileDialog";
             // 
             // Form1
             // 
@@ -117,6 +125,7 @@
         private System.Windows.Forms.Button btnBackup;
         private System.Windows.Forms.Button btnRestaurar;
         private System.Windows.Forms.TextBox tbxLista;
+        private System.Windows.Forms.OpenFileDialog openFileDialog;
     }
 }
 

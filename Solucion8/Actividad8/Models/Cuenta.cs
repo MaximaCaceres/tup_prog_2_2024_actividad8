@@ -16,6 +16,7 @@ namespace Actividad8.Models
         #region metodos
         public Cuenta(int num, Persona per)
         {
+     
             Titular = per;
             Numero = num;
         }
@@ -34,6 +35,11 @@ namespace Actividad8.Models
                 return Numero.CompareTo(c.Numero);
             }
             return 1;
+        }
+        public override string ToString()
+        {
+            string date = $"{Numero}   {Titular.Nombre}   {Saldo}\n\r\n\r";
+            return date;
         }
         #endregion
     }

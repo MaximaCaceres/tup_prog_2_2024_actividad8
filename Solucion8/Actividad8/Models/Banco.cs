@@ -30,7 +30,12 @@ namespace Actividad8.Models
         {
             get
             {
-                return cuentas[idx];
+                Cuenta c = null;
+                if (idx >= 0 && idx < CantidadCuentas)
+                {
+                    c = cuentas[idx];
+                }
+                return c;
             }
         }
 
@@ -63,10 +68,15 @@ namespace Actividad8.Models
         }
         public Persona VerClientePorDni(int dni)
         {
+            Persona cli = null;
             Persona p = new Persona(dni, null);
             clientes.Sort();
             int idx = clientes.BinarySearch(p);
-            Persona cli = clientes[idx];
+            if(idx > 0 && idx < CantidadClientes)
+            {
+              cli = clientes[idx];
+            }
+            
             return cli;
         }
 
@@ -85,6 +95,7 @@ namespace Actividad8.Models
                 return true;
             }
         }
+        
         #endregion
     }
 }

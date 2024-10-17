@@ -6,6 +6,10 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actividad8", "Actividad8\Actividad8.csproj", "{ED20CFAC-2B3C-486D-8154-4B4EA58669E7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ficheros", "Ficheros", "{E8C87AA7-D747-4762-9B5D-455C1B04784C}"
+	ProjectSection(SolutionItems) = preProject
+		clientes.csv = clientes.csv
+		..\..\..\..\Downloads\ejercicio1.dat = ..\..\..\..\Downloads\ejercicio1.dat
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
